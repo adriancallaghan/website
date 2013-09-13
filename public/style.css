@@ -1,6 +1,14 @@
+@font-face
+{
+font-family: florsn;
+src: url('Florsn30.ttf'),
+     url('Sansation_Light.eot'); /* IE9 */
+} 
+
 body {
-  margin: 0px;
+  margin: 5px;
   padding: 0px;
+  background:#000;
 }
 
 #c1 {
@@ -16,6 +24,30 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-8 */
 
   border:1px solid #000;
+}
+.banner {
+    position: relative;
+    margin:10px 0;
+}
+.banner h1{
+    position: absolute;
+    top:60px;
+    left:30px;
+    color:#fff;
+    font-family: florsn;
+    text-transform: uppercase;
+    font-size:30px;
+    font-weight:normal
+}
+.banner h2{
+    position: absolute;
+    top:100px;
+    left:30px;
+    color:#fff;
+    font-family: florsn;
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight:normal;
 }
 
 #c2 {display:none; /*background:#00f;*/}
