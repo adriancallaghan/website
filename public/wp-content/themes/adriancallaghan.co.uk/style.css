@@ -1,0 +1,60 @@
+/*
+Theme Name: Adriancallaghan.co.uk 
+Theme URI: http://adriancallaghan.co.uk/
+Description: Theme for Adriancallaghan.co.uk
+Author: Adrian Callaghan
+Author URI: http://adriancallaghan.co.uk
+Tags: 
+
+	Adriancallaghan.co.uk v1.0
+	 http://adriancallaghan.co.uk
+
+	This theme was designed and built by Adrian Callaghan,
+	whose blog you will find at http://adriancallaghan.co.uk
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+
+@font-face
+{
+font-family: florsn;
+src: url('FlorenceSansSC/Florsn30.ttf'),
+     url('FlorenceSansSC/Sansation_Light.eot'); /* IE9 */
+} 
+
+body {
+  margin: 0;
+  padding: 0px;  
+  color:#555;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    font-family: florsn;
+    font-weight:normal;
+}
+
+#c1 {
+  position: absolute;
+  top:0;
+  z-index:-1;
+}
+#c2 {display:none; /*background:#00f;*/}
+
+.masthead h4:nth-of-type(1)
+{
+    margin-top:3%;
+} 
+
+.masthead h4:nth-of-type(2)
+{
+    margin-bottom:3%;
+} 
+
+.red {
+    background:#cc0000;
+}
+

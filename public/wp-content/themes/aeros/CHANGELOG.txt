@@ -1,0 +1,40 @@
+WORDPRESS THEME 
+AEROS	
+
+ 
+     CHANGELOG
+
+
+	V 1.0.4
+
+	custom search results and 404 error page
+	better handling of head menu - parent and child pages
+        again improved the comment list
+        magnifying glass (search) now shows up on every page and post
+        more beautiful nav links (previous-next page)
+
+
+	
+	V 1.0.3
+
+	better handling of image floating and image sizes
+	removed the mysterious line in the first post
+	nicer magnifying glass with anti-aliasing - thanks Matt!
+	included wp_footer() hook to solve issues with some plugins and videos
+
+
+
+	V 1.0.2
+
+	The top navigation bar (for the pages) now shows subpages left of the menu when you select a parent page
+	If comments and Pings are closed, you now see a nice "--" instead of the too big "Co..mments closed" in the comment count field left of the post
+	The rounded corners now work in many different browsers - thanks Dirk!
+	Transparency of the content container has slightly been decreased
+	the comment list has been beautified - the names of the comment authors are now displayed under the avatar image
+	background image now suitable for all screen resolutions
+	Theme tested on 50+ different browsers - no problems in all main browsers - IE from 6.0, FF, Opera, Safari, Chrome OK
+
+
+        V 1.0.1 
+
+        initial version

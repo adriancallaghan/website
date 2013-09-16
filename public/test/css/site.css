@@ -1,0 +1,42 @@
+body,html {
+    margin: 0 5px;
+    font-family: Verdana,sans-serif;
+}
+h1 {
+    font-size:1.4em;
+    font-weight:lighter;
+    color: #000088;
+}
+a {
+    color: #000088;
+}
+
+/* Table */
+th {
+    text-align: left;
+}
+td, th {
+    padding-right: 5px;
+}
+
+/* style form */
+form dt {
+    width: 100px;
+    display: block;
+    float: left;
+    clear: left;
+    margin:4px 0;
+}
+form dd {
+    margin-left: 0;
+    float: left;
+    margin:4px 0;
+}
+form #submitbutton {
+    margin-left: 100px;
+}
+
+
+#header, #footer {background:#000056; display:block; height:30px; padding:10px 0; text-align:right; color:#fff; padding-right:30px;}
+
+#content {height:800px; padding:20px; background:#dedede;}

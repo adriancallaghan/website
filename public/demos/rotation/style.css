@@ -1,0 +1,36 @@
+body {
+	background:#cccccc;
+	font-family:helvitica;
+}
+.demo h1, .demo img, .demo a{
+	display:block;
+	border:0.1em solid #000000;
+	padding:0.5em;
+	font-weight:lighter;
+	font-size:1em;
+	text-align:center;
+}
+.demo h1 {
+	color:#343434;
+	background:#aaaaaa;
+	margin-bottom:3em;
+}
+.demo img, .demo a{
+	margin:1em auto;
+}
+.demo img {
+	height:20em;
+}
+.demo a {
+	text-decoration:none;
+	width:6em;
+	color:#767676;
+	background:#343434;
+	font-weight:bolder;
+}
+.demo a:hover {
+	text-decoration:none;
+	width:6em;
+	color:#343434;
+	background:#676767;
+}

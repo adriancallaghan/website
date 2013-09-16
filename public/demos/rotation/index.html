@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	        <title>Example image rotation</title>
+	        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	        <link type="text/css" href="style.css" rel="stylesheet" />
+	        
+	        <!-- Make sure you include jquery and the class -->
+	        <script type="text/javascript" src="jquery.js"></script>
+	        <script type="text/javascript" src="galleryRotate.js"></script>
+	     
+	</head>
+	<body class="demo">
+	
+		<script type="text/javascript">
+		
+			// start up
+			$images = ['1.jpg','2.jpg','3.jpg','4.jpg'];
+			var rotator = new GalleryRotate($images);
+
+		</script>
+		
+		<script type="text/javascript">
+		
+			$(document).ready(function(){
+	
+				// click the button
+				$('#button').click(function(){
+					return rotator.change('#theElement');
+				});
+			});
+		
+		
+		</script>
+		
+	
+	
+		<h1>Example image rotation</h1>
+		
+		<img src="1.jpg" id="theElement"/>
+		
+		<br />
+		
+		<a href="nojslink.html" id="button">Rotate</a>
+		
+	</body>
+</html>

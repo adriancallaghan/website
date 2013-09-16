@@ -1,0 +1,171 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maintenance Mode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-01-13 00:02+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Michael <please@nospam.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ../.\n"
+
+#: .././inc.swg-plugin-framework.php:57
+msgid "Plugin"
+msgstr "Plugin"
+
+#: .././inc.swg-plugin-framework.php:59
+msgid "Plugin's Homepage"
+msgstr "Plugin-Homepage"
+
+#: .././inc.swg-plugin-framework.php:60
+msgid "WordPress Support"
+msgstr "Wordpress-Support"
+
+#: .././inc.swg-plugin-framework.php:61
+msgid "Other Plugins I've Written"
+msgstr "Weitere Plugins vom Autor"
+
+#: .././inc.swg-plugin-framework.php:64
+msgid "Do you like this plugin?"
+msgstr "Gefällt Ihnen mein Plugin?"
+
+#: .././inc.swg-plugin-framework.php:65
+msgid "I spend a lot of time on the plugins I've written for WordPress. Any donation would be highly appreciated."
+msgstr "Die Plugin-Programmierung und -Pflege ist sehr zeitaufwändig, daher würde ich mich über jede noch so kleine Spende sehr freuen."
+
+#: .././inc.swg-plugin-framework.php:67
+msgid "Donate via PayPal"
+msgstr "Spende per Paypal"
+
+#: .././inc.swg-plugin-framework.php:68
+msgid "My Amazon Wish List"
+msgstr "Amazon-Wunschzettel"
+
+#: .././inc.swg-plugin-framework.php:86
+msgid "The activated plugin"
+msgstr "Das Plugin"
+
+#: .././inc.swg-plugin-framework.php:87
+msgid "is not compatible with your installed WordPress"
+msgstr "ist nicht kompatibel mit der installierten WordPress-Version"
+
+#: .././inc.swg-plugin-framework.php:88
+msgid "WordPress version"
+msgstr "WordPress Version"
+
+#: .././inc.swg-plugin-framework.php:88
+msgid "or higher is required when using this plugin, please deactivate it."
+msgstr "oder höher ist für die Benutzung dieses Plugins erforderlich, bitte deaktivieren Sie das Plugin."
+
+#: .././inc.swg-plugin-framework.php:99
+msgid "Settings deleted/reset."
+msgstr "Einstellungen gelöscht/zurückgesetzt."
+
+#: .././inc.swg-plugin-framework.php:126
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: .././inc.swg-plugin-framework.php:239
+msgid "You do not have permission to modify the options"
+msgstr "Sie haben keine ausreichende Berechtigung um die Plugin-Optionen zu ändern."
+
+#: .././inc.swg-plugin-framework.php:271
+msgid "Plugin Settings"
+msgstr "Plugin-Einstellungen"
+
+#: .././inc.swg-plugin-framework.php:284
+#: .././maintenance-mode.php:126
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: .././inc.swg-plugin-framework.php:285
+msgid "Do you really want to delete/reset the plugin settings?"
+msgstr "Möchten Sie wirklich die Plugin-Einstellungen löschen/zurücksetzen?"
+
+#: .././inc.swg-plugin-framework.php:285
+msgid "Delete/Reset Settings"
+msgstr "Einstellungen löschen/zurücksetzen"
+
+#: .././maintenance-mode.php:73
+msgid "The Maintenance Mode is active. Please don't forget to"
+msgstr "Der Wartungsmodus ist derzeit aktiviert. Bitte nicht vergessen diesen zu "
+
+#: .././maintenance-mode.php:73
+msgid "deactivate"
+msgstr "deaktivieren"
+
+#: .././maintenance-mode.php:73
+msgid "it as soon as you are done."
+msgstr "sobald Sie die Wartungsarbeiten beendet haben-"
+
+#: .././maintenance-mode.php:113
+msgid "Activate/Deactivate Maintenance Mode"
+msgstr "Wartungsmodus ein- und ausschalten"
+
+#: .././maintenance-mode.php:118
+msgid "Activated"
+msgstr "Eingeschaltet"
+
+#: .././maintenance-mode.php:121
+msgid "Deactivated"
+msgstr "Ausgeschaltet"
+
+#: .././maintenance-mode.php:132
+#: .././maintenance-mode.php:139
+msgid "Message"
+msgstr "Meldung"
+
+#: .././maintenance-mode.php:135
+msgid "Title"
+msgstr "Titel"
+
+#: .././maintenance-mode.php:141
+msgid "Use HTML only, no PHP allowed. You can use <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> and <strong>[backtime]</strong> as placeholders."
+msgstr "Nur HTML erlaubt, kein PHP. Es können die Platzhalter <strong>[blogurl]</strong>, <strong>[blogtitle]</strong> und <strong>[backtime]</strong> verwendet werden."
+
+#: .././maintenance-mode.php:147
+msgid "Backtime and HTTP header"
+msgstr "Voraussichtliche Dauer der Wartung und HTTP-Header"
+
+#: .././maintenance-mode.php:150
+msgid "Backtime in minutes"
+msgstr "Dauer der Wartung in Minuten (\"backtime\")"
+
+#: .././maintenance-mode.php:152
+msgid "A special HTML header for feed and trackback will be applied (&laquo;503 Service Unavailable&raquo;) including 'retry after x minutes'. Enter here the approximate time in minutes to retry. Also, by using the placeholder <strong>[backtime]</strong> above, the time in minutes be displayed to the visitors as well."
+msgstr "Für Feedreader- und Trackback-Anfragen wird ein spezieller HTTP-Header gesetzt (&laquo;503 Service Unavailable&raquo;). Außerden wird bei Feedreader- und Trackback-Anfragen eine Minutenanzahl übergeben, nach der die Wartung voraussichtlich beendet ist, diese bitte links eintragen. Diese Zahl kann zusätzlich mit Hilfe des Platzhalters <strong>[backtime]</strong> in dem obigen Textfeld (\"Meldung\") ausgegeben werden."
+
+#: .././maintenance-mode.php:157
+msgid "Apply HTTP header '503 Service Unavailable' and 'Retry-After &lt;backtime&gt;' to Maintenance Mode splash page"
+msgstr "'503 Service Unavailable' und 'Retry-After &lt;backtime&gt;' generell im HTTP-Header der Wartungsmodus-Seite setzen"
+
+#: .././maintenance-mode.php:161
+msgid "Paths to be still accessable"
+msgstr "Pfade, die immer erreichbar sein sollen"
+
+#: .././maintenance-mode.php:163
+msgid "Enter paths that shall be excluded and still be accessable. Separate multiple paths with line breaks.<br />Example: If you want to exclude <em>http://site.com/about/</em>, then enter <em>/about/</em>."
+msgstr "Hier können Pfade angegeben werden, die immer erreichbar sein sollen (also bei denen keine Wartungsmodus-Seite erscheinen soll). Mehrere Pfade bitte mit einem Zeilenumbruch (ENTER) trennen.<br />Beispiel: Um <em>http://site.com/about/</em> auszuschließen, <em>/about/</em> eingeben."
+
+#: .././maintenance-mode.php:168
+msgid "How to permit blog editors to see the blog's front-end"
+msgstr "Blog-Editoren Zugriff auf die Wartungs-Seiten einrichten"
+
+#: .././maintenance-mode.php:169
+msgid "As soon as you activate the maintenance mode, a splash page is being added to your blog that informs visitors about your blog maintenance. Logged in administrators get full access to the blog including the front-end and will not see any splash page.<br />This plugin adds the capability 'access_on_maintenance' to the role 'Administrator'. If users with a specific role, for instance 'Editor', should get full access to the blog as well, use an appropriate plugin like"
+msgstr "Sobald der Wartungsmodus eingeschaltet ist, wird eine Wartungsseite vorgeschaltet, die Besucher über die Wartung informiert. Eingeloggte Blog-Administratoren haben Vollzugriff und die vorgeschaltete Wartungsseite erscheint nicht.<br />Dieses Plugin fügt die sog. \"Capability\" 'access_on_maintenance' zur Rolle 'Administrator' hinzu. Wenn nun User mit einer bestimmten Rolle, z.B. \"Editor\", ebenso Vollzugriff (d.h. keine Wartungsseite) erhalten sollen, muss man mit einem entsprechenden Plugin (z.B."
+
+#: .././maintenance-mode.php:171
+msgid "and grant the capability 'Access On Maintenance' for the role 'Editor' or for any other role of your choice. <br />Check out"
+msgstr ") neben Administratoren ebenso Editoren die Rolle 'access_on_maintenance' zuordnen.<br />Mehr Informationen zu Berechtigungen, Rollen und Capabilities gibt es unter "
+
+#: .././maintenance-mode.php:173
+msgid "for further information."
+msgstr "."
+

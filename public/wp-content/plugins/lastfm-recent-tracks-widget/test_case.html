@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>  
+        <title>Test Case for JS on last.fm WP Plugin</title>
+        
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <link rel="image_src" href="" / >
+        
+        
+        <link rel="stylesheet" href="css/basic.css" media="screen" />
+        
+    </head>
+    <body>
+        <div id="container">
+            <div id="top">
+                
+            </div> <!-- end #top -->
+            
+            <div id="middle">
+                
+                        <ul id='recent_on_last_fm_itm_list'></ul>
+                
+            </div> <!-- end #middle -->
+            
+            <div id="bottom">
+                
+            </div> <!-- end #bottom -->
+            
+        </div> <!-- end #container -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.lastfm.js"></script>        
+        <script type="text/javascript">
+            
+        	jQuery('#recent_on_last_fm_itm_list').lastfm( { params : { limit : "5", user : "gregory80"  }, loadImages : true } );
+        </script>            
+
+    </body>
+</html>
