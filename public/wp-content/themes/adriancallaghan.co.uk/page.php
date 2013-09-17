@@ -1,11 +1,5 @@
-<?php
-/**
- * @package WordPress
- * @subpackage Default_Theme
- */
-
-get_header(); ?>
-
+<?php get_header(); ?>
+PAGE
 	<div id="content" class="narrowcolumn" role="main">
 
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -21,10 +15,8 @@ get_header(); ?>
 		<?php endwhile; endif; ?>
 	<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 	
-	<?php comments_template(); ?>
+	<?php //comments_template(); ?>
 	
 	</div>
-
-<?php get_sidebar(); ?>
 
 <?php get_footer(); ?>

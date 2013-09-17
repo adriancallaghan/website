@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 #c1 {
-  position: absolute;
+  position: fixed;
   top:0;
   z-index:-1;
 }
@@ -53,6 +53,19 @@ h1, h2, h3, h4, h5, h6{
 {
     margin-bottom:3%;
 } 
+
+.footer {
+    position: fixed;
+    bottom:1%;
+}
+
+.lcd_inactive {
+    background:#fff;
+}
+
+.lcd_active {
+    background-color: #dedede;
+}
 
 .red {
     background:#cc0000;

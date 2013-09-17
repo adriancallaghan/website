@@ -1,9 +1,14 @@
-    <hr>
 
-        <div class="footer">
-          <p>&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?></p>
+        
+    
+        <div class="row-fluid footer" role="footer">
+            <div class="span12">
+                <hr>
+                <p class="text-right">&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?></p>
+            </div>
         </div>
-
+        
+        
     </div> <!-- /container -->
         
 
@@ -60,6 +65,7 @@
           });
         </script>
   
+        <?php //wp_list_bookmarks(); ?>
         <?php wp_footer(); ?>
         
   </body>

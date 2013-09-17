@@ -35,7 +35,8 @@
                 <div class="navbar-inner">
                   <div class="container">
                     <ul class="nav"> 
-                     <?php wp_list_pages('title_li=' . __('')); ?>
+                     <li <?php echo is_home() ? 'class="active"' : ''; ?>><a href="<?php echo get_option('home'); ?>/">Home</a></li>
+                     <?php echo str_replace('current_page_item','active',wp_list_pages('echo=0&title_li=' . __(''))); ?>
                      <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">Categories <b class="caret"></b></a>
                         <ul class="dropdown-menu">                          
@@ -43,10 +44,10 @@
                         </ul>
                       </li>                            
                     </ul>
-                    <form class="form-search navbar-form pull-right">
+                    <form id="searchForm" action="<?php echo get_option('home'); ?>/" class="form-search navbar-form pull-right" method="get" role="search">
                       <div class="input-append">
-                          <input type="text" class="span2 search-query">
-                          <button type="submit" class="btn">Search</button>
+                            <input id="s" type="text" class="span2 search-query" name="s" value="<?php echo $_GET['s']; ?>">
+                           <button type="submit" class="btn" value="Search" id="searchsubmit">Search</button>
                       </div>
                     </form> 
                   </div>
